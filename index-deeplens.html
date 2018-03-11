@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>AWS DeepLens - Jason Poley</title>
+
+		<meta name="description" content="A recap of all the offerings from AWS announced at re:invent 2017">
+		<meta name="author" content="Jason Poley">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1 style="color:orange">AWS DeepLens</h1>
+					<h3><span style="text-transform: lowercase;color:orange">AWS</span> Overview of DeepLens</h3>
+					<p><small>March 14th, 2018 - Delaware DevOps / Philly AWS User Group</small></p>
+					<p>
+						<small><a href="http://jpoley.github.io">Jason Poley</a> Cloud Architect</small>
+						<img src="7certs.png" style="border:none"/>
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2 style="color:orange">AI & ML</h2>
+						<p><a href="https://aws.amazon.com/blogs/aws/introducing-amazon-translate-real-time-text-language-translation/">Translate</a></p>
+						<p><a href="https://aws.amazon.com/blogs/aws/amazon-transcribe-scalable-and-accurate-automatic-speech-recognition/">Transcribe</a></p>
+						<p><a href="https://aws.amazon.com/blogs/aws/amazon-comprehend-continuously-trained-natural-language-processing/">Comprehend</a></p>
+						<p><a href="https://aws.amazon.com/blogs/aws/launch-welcoming-amazon-rekognition-video-service/">Rekognition Video</a></p>
+						<p><a href="https://aws.amazon.com/blogs/aws/sagemaker/">SageMaker</a></p>
+						<p><a href="https://aws.amazon.com/blogs/aws/deeplens/">DeepLens</a></p>
+						<br>
+					</section>
+
+					<section>
+						<h2 style="color:orange">Translate (preview)</h2>
+						<p><small>Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation. Neural machine translation uses deep learning to deliver more accurate and more natural sounding translation than older statistical and rule-based translation algorithms. Amazon Translate enables translation at scale so that you can easily translate large volumes of text efficiently to handle tasks like localizing content for international users and facilitating real-time cross-lingual communication.</small></p>
+						<img src="translate.png" style="border:none"/>
+
+						<br>
+					</section>
+					<section>
+						<h2 style="color:orange">Transcribe (preview)</h2>
+						<p><small>Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for developers to add speech to text capability to their applications. Using the Amazon Transcribe API, you can analyze audio files stored in Amazon S3 and have the service return a text file of the transcribed speech.</small></p>
+						<img src="transcribe.png" style="border:none" height="400"/>
+
+						<br>
+					</section>
+					<section>
+						<h2 style="color:orange">Comprehend</h2>
+						<p><small>Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. Amazon Comprehend identifies the language of the text; extracts key phrases, places, people, brands, or events; understands how positive or negative the text is; and automatically organizes a collection of text files by topic.</small></p>
+						<br>
+					</section>
+					<section>
+						<h2 style="color:orange">Rekognition Video</h2>
+						<p><small>Amazon Rekognition Video is a deep learning powered video analysis service that tracks people, detects activities, and recognizes objects, celebrities, and inappropriate content. Amazon Rekognition Video can detect and recognize faces in live streams. Rekognition Video analyzes existing video stored in Amazon S3 and returns specific labels of activities, people and faces, and objects with time stamps so you can easily locate the scene. It can also perform facial recognition on live video from Amazon Kinesis Video Steams. For people and faces, it also returns the bounding box, which is the specific location of the person or face in the frame</small></p>
+						<br>
+					</section>
+					<section>
+						<h2 style="color:orange">SageMaker</h2>
+						<p><small>Amazon SageMaker is a fully-managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. Amazon SageMaker removes all the barriers that typically slow down developers who want to use machine learning.</small></p>
+						<img src="sagemaker.png"/>
+						<small><a href="https://aws.amazon.com/blogs/aws/sagemaker/">SageMaker Blog Post</a></small>
+					</section>
+					<section>
+						<h2 style="color:orange">DeepLens</h2>
+						<p><small>AWS DeepLens is a deep learning enabled wireless video camera specifically designed to help developers of all skill levels grow their machine learning skills through hands-on computer vision tutorials, example code, and pre-built models. DeepLens includes an HD video camera with on-board compute optimized for deep learning, which is fully programmable using AWS Lambda. Developers are free to focus on their machine learning skills, while DeepLens automatically optimizes and deploys models to the device and connects to the cloud for more advanced capabilities. DeepLens integrates with Amazon SageMaker giving developers an end-to-end solution to learn, develop, and test machine learning applications both in the cloud and at the edge, for the very first time.</small></p>
+					</section>
+					<section>
+						<h2 style="color:orange">DeepLens specs</h2>
+						<img src="deeplens.png"/>
+						<br>
+					</section>
+					<section>
+						<h2 style="color:orange">DeepLens</h2>
+						<p>demo...</p>
+						<br>
+					</section>
+				</section>
+
+				<section>
+					<h2 style="color:orange">AWS Resources</h2>
+					<ul>
+						<li><a href="https://www.youtube.com/user/AmazonWebServices/Cloud">YouTube AWS</a></li>
+						<li><a href="https://www.slideshare.net/AmazonWebServices/tagged/awsreinvent2017">SlideShare AWS</a></li>
+						<li><a href="https://aws.amazon.com/new">AWS Announcements</a></li>
+						<li><a href="https://github.com/open-guides/og-aws">AWS Open Guide</a></li>
+						<li><a href="https://github.com/donnemartin/awesome-aws">Awesome AWS</a></li>
+						<li><a href="https://github.com/awslabs">AWS Labs (github)</a></li>
+						<li><a href="https://github.com/aws">AWS github</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2 style="color:orange">Breakout Sessions</h2>
+					<iframe name="youtube"src="urls.html" width="1600" height="500"></iframe>
+					<small><a href="urls.html" target="youtube">reload list</a></small>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
