@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Engineering</title>
+    <link>//localhost:1313/home/</link>
+    <description>Recent content in Homes on Engineering</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index2/</guid>
+      <description>&lt;h2&gt; Digging Deeper&lt;/h2&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;img src=&#34;//localhost:1313/images/logerror.png&#34;&gt;&#xA;&lt;br/&gt;&#xA;    &lt;p&gt;logging - structured logging to a file&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;img src=&#34;//localhost:1313/images/chrome-dev.png&#34;&gt;&#xA;    &lt;p&gt;chrome plugin - debugging in the browser&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;img src=&#34;//localhost:1313/images/vscode-debug.gif&#34; height=&#34;400&#34; width=&#34;600&#34;&gt;&#xA;&lt;br/&gt;&#xA;    &lt;p&gt;vscode - step thru debugging&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;img src=&#34;//localhost:1313/images/wireshark.png&#34; height=&#34;400&#34; width=&#34;600&#34;&gt;&#xA;&lt;br/&gt;&#xA;    &lt;p&gt;wireshark - network packet capture&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;img src=&#34;//localhost:1313/images/mitm.png&#34; height=&#34;400&#34; width=&#34;600&#34;&gt;&#xA;&lt;br/&gt;&#xA;    &lt;p&gt;mitmproxy - man-in-the-middle the traffic&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;p&gt;where else might you get information from?&lt;/br&gt;&#xA;or where might you take this data?&lt;br?&gt;&#xA;&lt;h3&gt;google | chatgpt | stack overflow&lt;/h3&gt;&#xA;asking questions the right way.  &#xA;(with the data you got)&lt;br/&gt;&#xA;be aware of what information you are disclosing&lt;br/&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index3/</guid>
+      <description>&lt;section&gt;&#xA;Key things to think about&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;h3&gt; 1. Embrace Systems Thinking &lt;/h3&gt;&#xA;&lt;p&gt;Think beyond individual components. Understand how different parts of the software interact, affect each other, and work as a whole. Focus on the big picture as well as the details.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;br/&gt;&#xA;&lt;h3&gt; 2. Focus on Problem Solving, Not Just Tools&lt;/h3&gt;&#xA;&lt;p&gt;Being a good engineer isn&#39;t about knowing every tool. It’s about breaking down problems into manageable parts, finding the root cause, and solving them systematically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index4/</guid>
+      <description>&lt;section&gt;&#xA;&lt;h2&gt;SOLID Software Principles Overview&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;The SOLID principles are a set of five design guidelines that help software engineers create maintainable, flexible, and scalable code. Each principle focuses on a different aspect of software architecture, promoting clean and robust designs.&#xA;&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h2&gt;Single Responsibility Principle (SRP)&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;A class should have only one reason to change, meaning it should have only one job or responsibility. This principle emphasizes that each class should focus on a single part of the functionality provided by the software and should encapsulate it entirely.&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index5/</guid>
+      <description>&lt;section&gt;&#xA;&lt;h3&gt;some books&lt;/h3&gt;&#xA;&lt;p&gt;read or listen to new things.. &lt;br&gt; audible &amp; speechify are cheat codes I use&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;Modern Software Engineering by Dave Farley&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; &#34;Modern Software Engineering&#34; advocates for a disciplined approach to software development, rooted in empirical data and proven methodologies. Farley highlights the importance of feedback loops, reducing complexity, and making incremental improvements. The book covers key concepts like DevOps, Continuous Integration (CI), and test automation, giving engineers practical tools to adopt modern engineering best practices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index6/</guid>
+      <description>&lt;section&gt;&#xA;&lt;h3&gt;some blogs&lt;/h3&gt;&#xA;&lt;p&gt;other engineers are sharing their excellent work&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;Macquarie Engineering Blog&lt;/h3&gt;&#xA;&lt;p style=&#34;font-size: 0.6em;&#34;&gt;The Macquarie Engineering Blog offers insights from engineers working at Macquarie, a global financial group. It focuses on the challenges and solutions related to technology in financial services, covering topics like cloud architecture, DevOps, security, and digital transformation. It&#39;s a great resource for understanding the intersection of finance and cutting-edge technology.&lt;/p&gt;&#xA;&lt;p style=&#34;font-size: 0.6em;&#34;&gt;&lt;a href=&#34;https://medium.com/macquarie-engineering-blog&#34; target=&#34;_blank&#34;&gt;Visit Macquarie Engineering Blog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;Uber Engineering Blog&lt;/h3&gt;&#xA;&lt;p style=&#34;font-size: 0.6em;&#34;&gt;The Uber Engineering Blog dives deep into the technical innovations behind Uber&#39;s platforms. The blog covers large-scale distributed systems, data infrastructure, and optimization techniques, with contributions from engineers across the company. It’s a valuable resource for software engineers interested in the complexities of global systems and real-time data processing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index7/</guid>
+      <description>&lt;section&gt;&#xA;&lt;h3&gt;some podcasts&lt;/h3&gt;&#xA;&lt;p&gt;another way to keep current and listen while you do other things...&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;Software Engineering Daily&lt;/h3&gt;&#xA;&lt;p style=&#34;font-size: 0.6em;&#34;&gt;Software Engineering Daily is a daily podcast that covers a wide range of topics relevant to software engineers, from cloud computing and distributed systems to machine learning and security. The podcast features interviews with industry experts, providing deep insights into modern engineering challenges and solutions.&lt;/p&gt;&#xA;&lt;p style=&#34;font-size: 0.6em;&#34;&gt;&lt;a href=&#34;https://softwareengineeringdaily.com&#34; target=&#34;_blank&#34;&gt;Listen to Software Engineering Daily&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;The Changelog&lt;/h3&gt;&#xA;&lt;p style=&#34;font-size: 0.6em;&#34;&gt;The Changelog is a weekly podcast that focuses on open-source software, the people behind the projects, and the innovations driving the tech industry. Each episode features conversations with developers and maintainers, providing an inside look into the world of open-source development and software engineering trends.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index8/</guid>
+      <description>&lt;section&gt;&#xA;&lt;h3&gt;youtube&lt;/h3&gt;&#xA;&lt;p&gt;finding the gems of knowledge among all the content &lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;DevOps Toolkit Series&lt;/h3&gt;&#xA;&lt;p&gt;&#xA;The DevOps Toolkit Series, hosted by Viktor Farcic, focuses on advanced DevOps topics, Kubernetes, GitOps, and infrastructure as code. It features hands-on tutorials and deep dives into modern DevOps tools and methodologies, making it a must-watch for engineers looking to improve their DevOps skills.&#xA;&lt;/p&gt;&#xA;&lt;a href=&#34;https://www.youtube.com/c/DevOpsToolkit&#34; target=&#34;_blank&#34;&gt;DevOps Toolkit Series&lt;/a&gt;&#xA;&lt;/section&gt;&#xA;&lt;section&gt;&#xA;&lt;h3&gt;The Primeagen&lt;/h3&gt;&#xA;&lt;p&gt;&#xA;The Primeagen offers a blend of coding tips, development tools, and live streams focusing on topics like Vim, TypeScript, Rust, and high-performance coding techniques. With a quirky and energetic approach, this channel appeals to developers looking for practical tips and an engaging coding experience.&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/index9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/home/index9/</guid>
+      <description>&lt;section&gt; &#xA;  &lt;h3&gt;what next? &lt;/h3&gt;&#xA;    &lt;p&gt;start/continue the practice of learning every day&lt;/p&gt;&#xA;    &lt;h3&gt;connect with others&lt;/h3&gt;&#xA;   &lt;p&gt;establish a network, connect with me on &lt;a href=&#34;https://www.linkedin.com/in/jasonpoley/&#34;&gt;linked in&lt;/a&gt;, attend a meetup and learn something&lt;/p&gt;&#xA;&lt;h3&gt; Ask questions&lt;/h3&gt;&#xA;&lt;p&gt;now its time for the Q/A&lt;p&gt;&#xA;  &lt;/section&gt;&#xA;  &lt;section&gt;&#xA;&lt;h1&gt;the end&lt;/h1&gt;&#xA;&lt;/section&gt;</description>
+    </item>
+  </channel>
+</rss>
