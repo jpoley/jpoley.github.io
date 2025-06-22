@@ -2,8 +2,14 @@ baseURL = 'https://jpoley.github.io/'
 languageCode = 'en-us'
 title = 'Jason Poley'
 
+# Specify the theme and publishing directory
 theme = ["reveal-hugo"]
 publishDir = "public"
+
+# Hugo build settings
+verbose = true
+relativeURLs = false
+canonifyURLs = true
 
 [markup.goldmark.renderer]
 unsafe = true
