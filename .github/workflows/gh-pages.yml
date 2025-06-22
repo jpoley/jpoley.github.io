@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # Set this to your default branch
+      - master  # Updated to match your default branch
   pull_request:
 
 jobs:
@@ -26,13 +26,17 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
-
+        run: |
+          echo "Building site with Hugo..."
+          hugo --gc --minify
+          echo "Content of public directory (top level):"
+          find public -maxdepth 2 -type d | sort
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages  # deploying branch
-          force_orphan: true
+          force_orphan: true  # Completely replace the gh-pages branch content each time

@@ -12,8 +12,8 @@ baseName = "index"
 mediaType = "text/html"
 isHTML = true   
 
-# Publish to docs folder for GitHub Pages
-publishDir = "docs"
+# Let GitHub Actions handle publishing
+# publishDir is not needed when using GitHub Actions to deploy
 
 [params.reveal_hugo]
 theme = "moon"
