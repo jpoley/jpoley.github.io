@@ -33,6 +33,8 @@ jobs:
           find public -type f | grep -v "reveal" | sort
           # Create simple test page to verify deployment
           echo "<html><body><h1>Test Page - $(date)</h1><p>This is a test page to verify deployment.</p><p><a href='/ai/worlds-fair/'>Go to AI World's Fair</a></p></body></html>" > public/test-page.html
+          # Ensure .nojekyll file exists to disable Jekyll processing
+          touch public/.nojekyll
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

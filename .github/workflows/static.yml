@@ -1,0 +1,2 @@
+# This file tells GitHub Pages to use Hugo
+theme = "reveal-hugo"
