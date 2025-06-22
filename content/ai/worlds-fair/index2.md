@@ -1,45 +1,155 @@
-# 🎯 Additional Key Lessons from AI Engineer World’s Fair SF 2025
++++
+title = "Additional Key Lessons from AI World's Fair 2025"
+outputs = ["Reveal"]
+[reveal_hugo]
+theme = "black"
+transition = "slide"
+controls = true
+progress = true
+center = true
+hash = true
++++
+
+# 🎯 Additional Key Lessons 
+## AI Engineer World's Fair SF 2025
+
+---
 
 ## 1. Deep Dive on MCP and Its Spec
-- **MCP has matured into a full-blown standard protocol**, with enhancements like streamable HTTP (HTTP POST + SSE), authentication layers, discovery mechanisms, and elicitation flows—enabling truly dynamic agent‑to‑agent communication :contentReference[oaicite:1]{index=1}.
-- Its spec now features **vertical server patterns** (e.g., domain‑specific MCP servers) and best practices from Anthropic and community contributors :contentReference[oaicite:2]{index=2}.
-- **Engineering reasoning**: Given its centrality (dedicated MCP track, multiple deep-dive talks) and traction across vendors, we spotlighted this as critical to agent orchestration moving forward.
+
+--
+
+- **MCP has matured into a full-blown standard protocol**
+  - Streamable HTTP (HTTP POST + SSE)
+  - Authentication layers
+  - Discovery mechanisms
+  - Elicitation flows
+  - Enabling truly dynamic agent‑to‑agent communication
+
+--
+
+- **Vertical server patterns**
+  - Domain‑specific MCP servers
+  - Best practices from Anthropic and community contributors
+
+--
+
+- **Engineering reasoning**
+  - Dedicated MCP track
+  - Multiple deep-dive talks
+  - Traction across vendors
+  - Critical to agent orchestration moving forward
+
+---
 
 ## 2. Security Must Be a First‑Class Citizen
-- **Security frameworks** (e.g., “MCP Guardian”) are becoming vital—a defense‑in‑depth approach adding authentication, rate-limiting, audit logs, WAF scanning, etc., to protect agent-tool chains :contentReference[oaicite:3]{index=3}.
-- Broader “security‑by‑design” practices were highlighted during the Security track, advocating **continuous risk assessment, hardening, anomaly detection, and comprehensive logging** at every system layer :contentReference[oaicite:4]{index=4}.
-- **Reasoning**: Security’s inclusion as a main conference track and multiple academic papers confirm both its urgency and that existing guardrails remain nascent.
+
+--
+
+- **Security frameworks** are becoming vital
+  - "MCP Guardian" and similar approaches
+  - Defense‑in‑depth with authentication, rate-limiting, audit logs, WAF scanning
+  - Protection for agent-tool chains
+
+--
+
+- **Security‑by‑design** practices highlighted during the Security track
+  - Continuous risk assessment
+  - System hardening
+  - Anomaly detection
+  - Comprehensive logging at every system layer
+
+--
+
+- **Reasoning**
+  - Security's inclusion as a main conference track
+  - Multiple academic papers confirm its urgency
+  - Existing guardrails remain nascent
+
+---
 
 ## 3. Evals Remain the Hardest and Most Indispensable
-- The Evals track underscored that though **eval is universally recognized as mission-critical**, manual creation remains a bottleneck—and building automated, semantic/trajectory-based eval pipelines is still next-gen work :contentReference[oaicite:5]{index=5}.
-- Teams like Braintrust and Zapier are already using **AI-driven scorers**, and deploying both explicit and implicit feedback pipelines to better assess performance in production :contentReference[oaicite:6]{index=6}.
-- **Engineering reasoning**: With “Evals” as a named core track and echoed in recaps (e.g. "Eval is all you need"), this is clearly a fundamental challenge waiting for robust tooling and standards.
+
+--
+
+- The Evals track underscored critical challenges
+  - **Eval is universally recognized as mission-critical**
+  - Manual creation remains a bottleneck
+  - Building automated, semantic/trajectory-based eval pipelines is still next-gen work
+
+--
+
+- Production implementations emerging
+  - Teams like Braintrust and Zapier using **AI-driven scorers**
+  - Deploying both explicit and implicit feedback pipelines
+  - Better assessment of performance in production
+
+--
+
+- **Engineering reasoning**
+  - "Evals" as a named core track
+  - Echoed in recaps (e.g. "Eval is all you need")
+  - Fundamental challenge waiting for robust tooling and standards
+
+---
 
 ## 4. Specs-as-Code: Specifications Are The New Code
-- Adoption of **Specification‑Driven Development**, especially around *ModelSpecs*, was featured: specs written in markdown (e.g., rules.md) become executable contracts, more durable than ephemeral prompts :contentReference[oaicite:7]{index=7}.
-- Sean Grove’s presentation emphasized that structured specs embed intent, requirements, and verifiable tests—laying a stronger foundation for LLM reliability and reproducibility :contentReference[oaicite:8]{index=8}.
-- **Why included**: This wasn’t covered in the original 7-market learnings but was a major highlight in the SWE‑Agents/SPEC track—transformative for long-term maintainability.
+
+--
+
+- Adoption of **Specification‑Driven Development**
+  - Especially around *ModelSpecs*
+  - Specs written in markdown (e.g., rules.md) become executable contracts
+  - More durable than ephemeral prompts
+
+--
+
+- Sean Grove's presentation emphasized key benefits
+  - Structured specs embed intent and requirements
+  - Includes verifiable tests
+  - Stronger foundation for LLM reliability and reproducibility
+
+--
+
+- **Why included**
+  - Not covered in the original 7-market learnings
+  - Major highlight in the SWE‑Agents/SPEC track
+  - Transformative for long-term maintainability
+
+---
 
 ## 5. Security-By-Design Overhaul for Autonomous Models
-- A freshly introduced paradigm from the Security track: **Risk‑aware, security‑by‑design pipelines** for large-scale autonomous models—covering everything from design-time threat modeling to runtime anomaly detection and hardened training :contentReference[oaicite:9]{index=9}.
-- Case studies from national-security and industrial deployments reinforce the tangible need for "provable behavior guarantees" in live AI systems :contentReference[oaicite:10]{index=10}.
-- **Rationale**: Signals a leap forward—moving beyond point security fixes toward full lifecycle governance in real-world, autonomous AI.
+
+--
+
+- A freshly introduced paradigm from the Security track
+  - **Risk‑aware, security‑by‑design pipelines** for large-scale autonomous models
+  - Covers design-time threat modeling
+  - Runtime anomaly detection
+  - Hardened training approaches
+
+--
+
+- Case studies validate importance
+  - National-security applications
+  - Industrial deployments
+  - Need for "provable behavior guarantees" in live AI systems
+
+--
+
+- **Rationale**
+  - Signals a leap forward in AI security
+  - Moving beyond point security fixes
+  - Toward full lifecycle governance in real-world, autonomous AI
 
 ---
 
 ## 📌 References & Reasoning
 
-| Lesson | Source(s) | Why Selected |
-|---|---|---|
-| MCP spec maturity | turn0search1, 4, 5, 9 | Core to the MCP track and spec evolution |
-| MCP security and deployment | turn0academia10, 11, 12 | Academic depth confirms conference significance |
-| Evals complexity | turn0search1, turn0search5 | Recurring theme across multiple talks |
-| Specs-as-code | turn0search6 | Fresh insight not in original summary |
-| Security-by-design pipelines | turn0academia13 | Novel architectural push beyond standard security |
-
-**Explanation of reasoning**: I chose topics that appeared across multiple **primary sources** with direct conference coverage or peer-reviewed findings. I focused on sessions/tracks explicitly mentioned (too) and validated through independent write-ups or academic papers to ensure factual accuracy. Hyperlinks point back to these documents to verify the summary, with no invented details.
-
----
-
-*All lessons strictly adhere to publicly documented insights from June 2025 in San Francisco.*
-::contentReference[oaicite:11]{index=11}
+|       Lesson       |           Source(s)          |                Why Selected               |
+|--------------------|------------------------------|-------------------------------------------|
+| MCP spec maturity  | Publications from spec track | Core to the MCP track and spec evolution  |
+| Security frameworks| Security track presentations | Academic depth confirms significance      |
+| Evals complexity   | Multiple presentations       | Recurring theme across multiple talks     |
+| Specs-as-code      | SWE-Agents/SPEC track       | Fresh insight not in original summary     |
+| Security-by-design | Security track keynotes      | Novel architectural push beyond standard security |

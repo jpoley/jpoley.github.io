@@ -2,9 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jpoley.github.io/ai/worlds-fair/index2/</loc>
+    <loc>https://jpoley.github.io/ai/worlds-fair/index3/</loc>
   </url><url>
     <loc>https://jpoley.github.io/ai/worlds-fair/test/</loc>
+  </url><url>
+    <loc>https://jpoley.github.io/ai/worlds-fair/additional-lessons/</loc>
+  </url><url>
+    <loc>https://jpoley.github.io/ai/worlds-fair/index2/</loc>
   </url><url>
     <loc>https://jpoley.github.io/ai/worlds-fair/</loc>
   </url><url>
@@ -12,9 +16,7 @@
   </url><url>
     <loc>https://jpoley.github.io/categories/</loc>
   </url><url>
-    <loc>https://jpoley.github.io/engineer-presentation/</loc>
-  </url><url>
-    <loc>https://jpoley.github.io/engineer/</loc>
+    <loc>https://jpoley.github.io/engineering/</loc>
   </url><url>
     <loc>https://jpoley.github.io/</loc>
   </url><url>
