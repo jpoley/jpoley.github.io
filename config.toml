@@ -1,0 +1,17 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Jason Poley'
+
+theme = ["reveal-hugo"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true   
+
+[params.reveal_hugo]
+theme = "moon"
+
