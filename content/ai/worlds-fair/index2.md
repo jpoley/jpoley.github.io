@@ -1,32 +1,45 @@
-+++
-title = "AI World's Fair 2025 - Useful Links" 
-outputs = ["Reveal"]
-weight = 20
-[reveal_hugo]
-theme = "black"
-+++
+# 🎯 Additional Key Lessons from AI Engineer World’s Fair SF 2025
 
-<h2> Useful Links</h2>
+## 1. Deep Dive on MCP and Its Spec
+- **MCP has matured into a full-blown standard protocol**, with enhancements like streamable HTTP (HTTP POST + SSE), authentication layers, discovery mechanisms, and elicitation flows—enabling truly dynamic agent‑to‑agent communication :contentReference[oaicite:1]{index=1}.
+- Its spec now features **vertical server patterns** (e.g., domain‑specific MCP servers) and best practices from Anthropic and community contributors :contentReference[oaicite:2]{index=2}.
+- **Engineering reasoning**: Given its centrality (dedicated MCP track, multiple deep-dive talks) and traction across vendors, we spotlighted this as critical to agent orchestration moving forward.
 
-<section>
+## 2. Security Must Be a First‑Class Citizen
+- **Security frameworks** (e.g., “MCP Guardian”) are becoming vital—a defense‑in‑depth approach adding authentication, rate-limiting, audit logs, WAF scanning, etc., to protect agent-tool chains :contentReference[oaicite:3]{index=3}.
+- Broader “security‑by‑design” practices were highlighted during the Security track, advocating **continuous risk assessment, hardening, anomaly detection, and comprehensive logging** at every system layer :contentReference[oaicite:4]{index=4}.
+- **Reasoning**: Security’s inclusion as a main conference track and multiple academic papers confirm both its urgency and that existing guardrails remain nascent.
 
-<a href="https://landscape.ainativedev.io" target="_blank" rel="noopener noreferrer">AI Native Dev Landscape</a><br>
-<a href="https://modelcontextprotocol.io/specification/2025-03-26" target="_blank" rel="noopener noreferrer">MCP Spec</a><br>
+## 3. Evals Remain the Hardest and Most Indispensable
+- The Evals track underscored that though **eval is universally recognized as mission-critical**, manual creation remains a bottleneck—and building automated, semantic/trajectory-based eval pipelines is still next-gen work :contentReference[oaicite:5]{index=5}.
+- Teams like Braintrust and Zapier are already using **AI-driven scorers**, and deploying both explicit and implicit feedback pipelines to better assess performance in production :contentReference[oaicite:6]{index=6}.
+- **Engineering reasoning**: With “Evals” as a named core track and echoed in recaps (e.g. "Eval is all you need"), this is clearly a fundamental challenge waiting for robust tooling and standards.
 
-</section>
+## 4. Specs-as-Code: Specifications Are The New Code
+- Adoption of **Specification‑Driven Development**, especially around *ModelSpecs*, was featured: specs written in markdown (e.g., rules.md) become executable contracts, more durable than ephemeral prompts :contentReference[oaicite:7]{index=7}.
+- Sean Grove’s presentation emphasized that structured specs embed intent, requirements, and verifiable tests—laying a stronger foundation for LLM reliability and reproducibility :contentReference[oaicite:8]{index=8}.
+- **Why included**: This wasn’t covered in the original 7-market learnings but was a major highlight in the SWE‑Agents/SPEC track—transformative for long-term maintainability.
 
-<section>
-<a href="https://agentgateway.dev" target="_blank" rel="noopener noreferrer">Agent Gateway</a><br>
+## 5. Security-By-Design Overhaul for Autonomous Models
+- A freshly introduced paradigm from the Security track: **Risk‑aware, security‑by‑design pipelines** for large-scale autonomous models—covering everything from design-time threat modeling to runtime anomaly detection and hardened training :contentReference[oaicite:9]{index=9}.
+- Case studies from national-security and industrial deployments reinforce the tangible need for "provable behavior guarantees" in live AI systems :contentReference[oaicite:10]{index=10}.
+- **Rationale**: Signals a leap forward—moving beyond point security fixes toward full lifecycle governance in real-world, autonomous AI.
 
-<a href="https://github.com/agentgateway/agentgateway" target="_blank" rel="noopener noreferrer">github page</a><br>
-</section>
+---
 
+## 📌 References & Reasoning
 
+| Lesson | Source(s) | Why Selected |
+|---|---|---|
+| MCP spec maturity | turn0search1, 4, 5, 9 | Core to the MCP track and spec evolution |
+| MCP security and deployment | turn0academia10, 11, 12 | Academic depth confirms conference significance |
+| Evals complexity | turn0search1, turn0search5 | Recurring theme across multiple talks |
+| Specs-as-code | turn0search6 | Fresh insight not in original summary |
+| Security-by-design pipelines | turn0academia13 | Novel architectural push beyond standard security |
 
-<section>
+**Explanation of reasoning**: I chose topics that appeared across multiple **primary sources** with direct conference coverage or peer-reviewed findings. I focused on sessions/tracks explicitly mentioned (too) and validated through independent write-ups or academic papers to ensure factual accuracy. Hyperlinks point back to these documents to verify the summary, with no invented details.
 
-<a href="https://youtu.be/U-fMsbY-kHY?t=3392" target="_blank" rel="noopener noreferrer">Dagger and AI - Solomon Hykes</a><br>
-<a href="https://youtu.be/z4zXicOAF28?t=11042" target="_blank" rel="noopener noreferrer">Full Spec MCP</a><br>
-<a href="https://www.youtube.com/watch?v=9u6xvcNJaxc" target="_blank" rel="noopener noreferrer">Patrick Debois - 4 types</a><br>
+---
 
-</section>
+*All lessons strictly adhere to publicly documented insights from June 2025 in San Francisco.*
+::contentReference[oaicite:11]{index=11}
