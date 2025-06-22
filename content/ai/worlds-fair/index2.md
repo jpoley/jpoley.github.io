@@ -17,6 +17,8 @@ vertical_center = true
 
 ---
 
+{{% section %}}
+
 ## 1. Deep Dive on MCP and Its Spec
 
 ___
@@ -44,8 +46,11 @@ ___
 
 ---
 
+{{% / section %}}
+
 ## 2. Security Must Be a First‑Class Citizen
 
+{{% section %}}
 ___
 
 - **Security frameworks** are becoming vital
@@ -70,8 +75,11 @@ ___
 
 ---
 
+{{% /section %}}
+
 ## 3. Evals Remain the Hardest and Most Indispensable
 
+{{% section %}}
 ___
 
 - The Evals track underscored critical challenges
@@ -95,7 +103,11 @@ ___
 
 ---
 
+{{% /section %}}
+
 ## 4. Specs-as-Code: Specifications Are The New Code
+
+{{% section %}}
 
 ___
 
@@ -120,7 +132,11 @@ ___
 
 ---
 
+{{% /section %}}
+
 ## 5. Security-By-Design Overhaul for Autonomous Models
+
+{{% section %}}
 
 ___
 
@@ -146,7 +162,11 @@ ___
 
 ---
 
+{{% /section %}}
+
 ## 📌 References & Reasoning
+
+{{% section %}}
 
 |       Lesson       |           Source(s)          |                Why Selected               |
 |--------------------|------------------------------|-------------------------------------------|
@@ -155,3 +175,5 @@ ___
 | Evals complexity   | Multiple presentations       | Recurring theme across multiple talks     |
 | Specs-as-code      | SWE-Agents/SPEC track       | Fresh insight not in original summary     |
 | Security-by-design | Security track keynotes      | Novel architectural push beyond standard security |
+
+{{% /section %}}
