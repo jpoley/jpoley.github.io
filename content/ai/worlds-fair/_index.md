@@ -19,7 +19,7 @@ vertical_center = true
 
 # Patrick Debois: [7 Lessons Learned](https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings)
 
----
+___
 
 ## Lesson 1: AI Coding Agents are Truly Everywhere
 
@@ -48,7 +48,7 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
    Manual coding            Smart suggestions         Agent collaboration
 ```
 
----
+___
 
 ## Lesson 2: Using AI Tools Like You Did 6 Months Ago Is a Mistake
 
@@ -81,7 +81,7 @@ ___
 > "The developers who adapt their workflow to leverage AI's evolving capabilities will have a 10x advantage over those who don't."
 > — Patrick Debois
 
----
+___
 
 ## Lesson 3: Specs are the New Code
 
@@ -117,7 +117,7 @@ ___
 - Better documentation synchronization
 - Faster onboarding for new team members
 
----
+___
 
 ## Lesson 4: Agents … from IDE to the Cloud!
 
@@ -158,7 +158,7 @@ ___
 - **Incident Response**: Automated troubleshooting
 - **Compliance**: Continuous security posture management
 
----
+___
 
 ## Lesson 5: Parallel Execution Means Parallel Exploration
 
@@ -196,7 +196,7 @@ ___
 - **Innovation**: Multiple solution paths explored simultaneously
 - **Risk mitigation**: Early identification of potential problems
 
----
+___
 
 ## Lesson 6: AI is Shifting CI/CD Left
 
@@ -234,7 +234,7 @@ ___
 - **Automated rollback decisions**: AI-driven deployment safety
 - **Proactive monitoring**: Issues detected before they impact users
 
----
+___
 
 ## Lesson 7: The Truth About How Many X's AI Will Deliver
 
