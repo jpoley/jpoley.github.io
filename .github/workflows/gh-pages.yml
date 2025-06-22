@@ -31,6 +31,8 @@ jobs:
           hugo --gc --minify
           echo "Content of public directory (top level):"
           find public -maxdepth 2 -type d | sort
+          # Remove any old redirected paths
+          find public -path "*ai-worlds-fair*" -o -path "*worlds-fair2025*" -exec rm -rf {} \; 2>/dev/null || true
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
