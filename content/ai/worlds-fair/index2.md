@@ -26,6 +26,7 @@ ___
 
 ___
 
+
 - **MCP has matured into a full-blown standard protocol**
   - Streamable HTTP (HTTP POST + SSE)
   - Authentication layers
@@ -35,11 +36,13 @@ ___
 
 ___
 
+
 - **Vertical server patterns**
   - Domain‑specific MCP servers
   - Best practices from Anthropic and community contributors
 
 ___
+
 
 - **Engineering reasoning**
   - Dedicated MCP track
@@ -47,7 +50,7 @@ ___
   - Traction across vendors
   - Critical to agent orchestration moving forward
 
----
+___
 
 {{% / section %}}
 
@@ -78,7 +81,8 @@ ___
   - Multiple academic papers confirm its urgency
   - Existing guardrails remain nascent
 
----
+___
+
 
 {{% /section %}}
 
@@ -108,7 +112,7 @@ ___
   - Echoed in recaps (e.g. "Eval is all you need")
   - Fundamental challenge waiting for robust tooling and standards
 
----
+___
 
 {{% /section %}}
 
@@ -137,7 +141,7 @@ ___
   - Major highlight in the SWE‑Agents/SPEC track
   - Transformative for long-term maintainability
 
----
+___
 
 {{% /section %}}
 
@@ -167,7 +171,7 @@ ___
   - Moving beyond point security fixes
   - Toward full lifecycle governance in real-world, autonomous AI
 
----
+___
 
 {{% /section %}}
 
