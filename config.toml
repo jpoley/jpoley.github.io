@@ -9,7 +9,7 @@ publishDir = "public"
 # Hugo build settings
 verbose = true
 relativeURLs = false
-canonifyURLs = true
+canonifyURLs = false # Changed to false to ensure URLs are constructed correctly
 
 [markup.goldmark.renderer]
 unsafe = true
