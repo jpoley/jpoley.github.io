@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://jpoley.github.io/'
 languageCode = 'en-us'
 title = 'Jason Poley'
 
@@ -12,6 +12,28 @@ baseName = "index"
 mediaType = "text/html"
 isHTML = true   
 
+# Publish to docs folder for GitHub Pages
+publishDir = "docs"
+
 [params.reveal_hugo]
 theme = "moon"
+highlight_theme = "monokai"
+
+# Enable custom JS and CSS for reveal.js
+custom_theme = "reveal-hugo/themes/robot-lung.css"
+custom_js = "js/custom.js"
+
+# Add more settings for reveal.js
+[params.reveal_hugo.custom_theme_options]
+targetPath = "css/custom-theme.css"
+enableSourceMap = true
+
+# Add settings for reveal.js presentations
+[reveal_hugo.templates.hotpink]
+class = "hotpink"
+background = "#FF00FF"
+
+[reveal_hugo.templates.blue]
+class = "hotpink"
+background = "#0000FF"
 
