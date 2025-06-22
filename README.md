@@ -7,7 +7,7 @@ This repository contains my personal website built with Hugo and the reveal-hugo
 ```
 ├── content/                  # Source content files (Markdown)
 │   ├── _index.md             # Home page content -> Published to '/'
-│   ├── engineer-presentation/  # Engineering presentation -> Published to '/engineer-presentation/'
+│   ├── engineerING/  # Engineering presentation -> Published to '/engineering/'
 │   └── ai/
 │       └── worlds-fair/     # AI World's Fair presentation -> Published to '/ai/worlds-fair/'
 ├── themes/                   # Hugo themes
