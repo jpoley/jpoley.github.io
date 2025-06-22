@@ -22,7 +22,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.135.0'
+          hugo-version: '0.140.1'
           extended: true
 
       - name: Build
@@ -40,3 +40,4 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages  # deploying branch
           force_orphan: true  # Completely replace the gh-pages branch content each time
+          cname: jpoley.github.io  # Optional: add if you have a custom domain
