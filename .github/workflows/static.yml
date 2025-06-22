@@ -51,7 +51,7 @@ jobs:
       - name: Build
         run: |
           echo "Building with Hugo..."
-          hugo --minify --debug --verboseLog
+          hugo --minify
           
           # Create a test file in the output directory
           echo "<html><body><h1>Test Page</h1><p>This is a test page to verify deployment.</p></body></html>" > public/test-page.html
@@ -61,7 +61,16 @@ jobs:
           
           # Debug - show output structure
           echo "Generated site structure:"
-          find public -type f | sort
+          find public -type f | grep -E 'ai/worlds-fair|index.html' | sort
+          
+          # Ensure the AI World's Fair page exists
+          if [ -f "public/ai/worlds-fair/index.html" ]; then
+            echo "✅ AI World's Fair page exists at /ai/worlds-fair/index.html"
+            ls -l public/ai/worlds-fair/index.html
+          else
+            echo "❌ ERROR: AI World's Fair page missing at /ai/worlds-fair/index.html"
+            exit 1
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
