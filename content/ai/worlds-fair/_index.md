@@ -17,7 +17,7 @@ vertical_center = true
 
 ---
 
-# Patrick Debois: [7 Lessons Learned](https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings)
+### Patrick Debois: [7 Lessons Learned](https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings)
 
 {{% section %}}
 
@@ -48,11 +48,9 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
    Manual coding            Smart suggestions         Agent collaboration
 ```
 
-{{% /section %}}
 
 ---
 
-{{% section %}}
 
 ## Lesson 2: Using AI Tools Like You Did 6 Months Ago Is a Mistake
 
@@ -85,11 +83,9 @@ ___
 > "The developers who adapt their workflow to leverage AI's evolving capabilities will have a 10x advantage over those who don't."
 > — Patrick Debois
 
-{{% /section %}}
 
 ---
 
-{{% section %}}
 
 ## Lesson 3: Specs are the New Code
 
@@ -125,11 +121,9 @@ ___
 - Better documentation synchronization
 - Faster onboarding for new team members
 
-{{% /section %}}
 
 ---
 
-{{% section %}}
 
 ## Lesson 4: Agents … from IDE to the Cloud!
 
@@ -170,11 +164,9 @@ ___
 - **Incident Response**: Automated troubleshooting
 - **Compliance**: Continuous security posture management
 
-{{% /section %}}
 
 ---
 
-{{% section %}}
 
 ## Lesson 5: Parallel Execution Means Parallel Exploration
 
@@ -212,11 +204,9 @@ ___
 - **Innovation**: Multiple solution paths explored simultaneously
 - **Risk mitigation**: Early identification of potential problems
 
-{{% /section %}}
 
 ---
 
-{{% section %}}
 
 ## Lesson 6: AI is Shifting CI/CD Left
 
@@ -254,11 +244,11 @@ ___
 - **Automated rollback decisions**: AI-driven deployment safety
 - **Proactive monitoring**: Issues detected before they impact users
 
-{{% /section %}}
+
 
 ---
 
-{{% section %}}
+
 
 ## Lesson 7: The Truth About How Many X's AI Will Deliver
 
