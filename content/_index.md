@@ -1,11 +1,11 @@
 +++
-title = "Jason Poley"
+title = "JPoley"
 outputs = ["Reveal"]
 +++
 
-# Jason Poley's Site
+# JPoley's Site
 
-Welcome to my website
+Welcome to this page
 
 <div class="r-hstack justify-center" style="gap: 20px;">
   <a href="/engineer/" style="text-decoration: none; padding: 15px 30px; background-color: #4CAF50; color: white; border-radius: 5px; font-size: 1.2em;">

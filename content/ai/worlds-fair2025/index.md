@@ -15,7 +15,7 @@ hash = true
 
 ---
 
-# Patrick Debois: 7 Lessons Learned
+# Patrick Debois: <a href="https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings" target="_blank" rel="noopener noreferrer"> 7 Lessons Learned </a>
 
 ---
 
