@@ -11,11 +11,14 @@ hash = true
 slide_number = true
 vertical_center = true
 +++
+{{% section %}}
 
 # 🎯 Additional Key Lessons 
 ## AI Engineer World's Fair SF 2025
 
----
+{{% /section %}}
+
+___
 
 {{% section %}}
 
@@ -48,6 +51,8 @@ ___
 
 {{% / section %}}
 
+___
+
 ## 2. Security Must Be a First‑Class Citizen
 
 {{% section %}}
@@ -76,6 +81,8 @@ ___
 ---
 
 {{% /section %}}
+
+___
 
 ## 3. Evals Remain the Hardest and Most Indispensable
 
