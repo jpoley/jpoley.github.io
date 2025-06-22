@@ -12,36 +12,47 @@ slide_number = true
 vertical_center = true
 +++
 
-# AI World's Fair
-## Transforming the Development Landscape
+## AI World's Fair
+### Transforming the Development Landscape
 
 ---
-
-### Patrick Debois: [7 Lessons Learned](https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings)
-
 {{% section %}}
 
-## Lesson 1: AI Coding Agents are Truly Everywhere
+##### Patrick Debois: [7 Lessons Learned](https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings)
+
+{{% /section %}}
 
 ___
 
-### The New Reality
+{{% section %}}
+
+### Lesson 1: AI Coding Agents are Truly Everywhere
+
+___
+
+#### The New Reality
 - **IDE Integration**: GitHub Copilot, Cursor, and VS Code extensions
+
 - **Cloud Platforms**: Azure AI, AWS CodeWhisperer, Google Duet AI
+
 - **Command Line**: AI-powered terminals and shell assistants
+
 - **Code Review**: Automated PR analysis and suggestions
 
 ___
 
-### Impact on Development
+#### Impact on Development
 - Code completion rates increased by 35-55%
+
 - Debugging assistance across all tech stacks
+
 - Documentation generation becoming automated
+
 - Testing scenarios created by AI analysis
 
 ___
 
-### Developer Adoption Patterns
+#### Developer Adoption Patterns
 ```
 Traditional Development → AI-Assisted Development → AI-Driven Development
         ↓                        ↓                        ↓
@@ -52,34 +63,42 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
 ---
 
 
-## Lesson 2: Using AI Tools Like You Did 6 Months Ago Is a Mistake
+### Lesson 2: Using AI Tools Like You Did 6 Months Ago Is a Mistake
 
 ___
 
-### Evolution of AI Capabilities
+#### Evolution of AI Capabilities
 - **6 Months Ago**: Basic code completion
+
 - **Today**: Context-aware reasoning, multi-file refactoring
+
 - **Tomorrow**: Full project understanding and architecture
 
 ___
 
-### Outdated Approaches
+#### Outdated Approaches
 ❌ **Treating AI as autocomplete**
+
 ❌ **Single-shot prompts**
+
 ❌ **Ignoring context windows**
+
 ❌ **Manual prompt engineering**
 
 ___
 
-### Modern Best Practices
+#### Modern Best Practices
 ✅ **Iterative conversations with AI**
+
 ✅ **Context-rich prompting**
+
 ✅ **Multi-modal interactions**
+
 ✅ **Workflow integration**
 
 ___
 
-### The Learning Curve
+#### The Learning Curve
 > "The developers who adapt their workflow to leverage AI's evolving capabilities will have a 10x advantage over those who don't."
 > — Patrick Debois
 
@@ -87,11 +106,11 @@ ___
 ---
 
 
-## Lesson 3: Specs are the New Code
+### Lesson 3: Specs are the New Code
 
 ___
 
-### The Paradigm Shift
+#### The Paradigm Shift
 ```
 Traditional: Spec → Code → Test → Deploy
 Modern: Spec → AI Generated Code → Validate → Deploy
@@ -99,37 +118,46 @@ Modern: Spec → AI Generated Code → Validate → Deploy
 
 ___
 
-### Specification-Driven Development
+#### Specification-Driven Development
 - **Natural Language Requirements** become executable
+
 - **API Documentation** generates implementation
+
 - **Test Cases** drive code creation
+
 - **Architecture Diagrams** become deployable infrastructure
 
 ___
 
-### Tools Enabling This Shift
+#### Tools Enabling This Shift
 - **OpenAPI Specs** → Full REST API implementations
+
 - **GraphQL Schemas** → Complete resolvers
+
 - **Infrastructure as Code** from architectural descriptions
+
 - **Database Schemas** from business requirements
 
 ___
 
-### Quality Through Specifications
+#### Quality Through Specifications
 - Reduced translation errors
+
 - Improved maintainability
+
 - Better documentation synchronization
+
 - Faster onboarding for new team members
 
 
 ---
 
 
-## Lesson 4: Agents … from IDE to the Cloud!
+### Lesson 4: Agents … from IDE to the Cloud!
 
 ___
 
-### The Agent Ecosystem
+#### The Agent Ecosystem
 ```
 Local Development Agents
         ↓
@@ -142,37 +170,46 @@ Production Monitoring Agents
 
 ___
 
-### IDE Agents
+#### IDE Agents
 - **Code Generation**: Context-aware suggestions
+
 - **Refactoring**: Cross-file intelligent updates
+
 - **Testing**: Automated test case generation
+
 - **Documentation**: Real-time docs updates
 
 ___
 
-### Pipeline Agents
+#### Pipeline Agents
 - **Build Optimization**: Dynamic dependency management
+
 - **Security Scanning**: Vulnerability detection and fixes
+
 - **Performance Analysis**: Automated bottleneck identification
+
 - **Deployment Strategies**: Environment-specific configurations
 
 ___
 
-### Cloud Agents
+#### Cloud Agents
 - **Resource Optimization**: Cost and performance tuning
+
 - **Auto-scaling**: Predictive capacity management
+
 - **Incident Response**: Automated troubleshooting
+
 - **Compliance**: Continuous security posture management
 
 
 ---
 
 
-## Lesson 5: Parallel Execution Means Parallel Exploration
+### Lesson 5: Parallel Execution Means Parallel Exploration
 
 ___
 
-### Traditional Sequential Development
+#### Traditional Sequential Development
 ```
 Plan → Design → Code → Test → Debug → Deploy
   ↓      ↓       ↓      ↓       ↓       ↓
@@ -181,7 +218,7 @@ Plan → Design → Code → Test → Debug → Deploy
 
 ___
 
-### AI-Enabled Parallel Exploration
+#### AI-Enabled Parallel Exploration
 ```
 Plan ←→ Design ←→ Code ←→ Test ←→ Debug ←→ Deploy
   ↕      ↕       ↕      ↕       ↕       ↕
@@ -190,29 +227,35 @@ Multiple AI agents working simultaneously
 
 ___
 
-### Concurrent Development Streams
+#### Concurrent Development Streams
 - **Architecture exploration** while coding
+
 - **Test generation** during development
+
 - **Performance optimization** in parallel with features
+
 - **Security analysis** throughout the pipeline
 
 ___
 
-### Benefits of Parallel Exploration
+#### Benefits of Parallel Exploration
 - **Faster time-to-market**: 40-60% reduction in development cycles
+
 - **Higher quality**: Issues caught earlier through parallel analysis
+
 - **Innovation**: Multiple solution paths explored simultaneously
+
 - **Risk mitigation**: Early identification of potential problems
 
 
 ---
 
 
-## Lesson 6: AI is Shifting CI/CD Left
+### Lesson 6: AI is Shifting CI/CD Left
 
 ___
 
-### Traditional CI/CD Pipeline
+#### Traditional CI/CD Pipeline
 ```
 Code → Commit → Build → Test → Deploy → Monitor
                   ↑
@@ -221,7 +264,7 @@ Code → Commit → Build → Test → Deploy → Monitor
 
 ___
 
-### AI-Shifted Left Pipeline
+#### AI-Shifted Left Pipeline
 ```
 AI-Assisted Code → AI-Validated Commit → Smart Build → Predictive Test → Intelligent Deploy
        ↑                    ↑                ↑              ↑                  ↑
@@ -230,18 +273,24 @@ AI-Assisted Code → AI-Validated Commit → Smart Build → Predictive Test →
 
 ___
 
-### Pre-Commit AI Integration
+#### Pre-Commit AI Integration
 - **Code quality analysis** before commit
+
 - **Security vulnerability scanning** in IDE
+
 - **Performance impact prediction** during development
+
 - **Dependency conflict resolution** in real-time
 
 ___
 
-### Intelligent Pipeline Optimization
+#### Intelligent Pipeline Optimization
 - **Predictive test selection**: Run only relevant tests
+
 - **Dynamic environment provisioning**: Just-in-time resources
+
 - **Automated rollback decisions**: AI-driven deployment safety
+
 - **Proactive monitoring**: Issues detected before they impact users
 
 
@@ -250,11 +299,11 @@ ___
 
 
 
-## Lesson 7: The Truth About How Many X's AI Will Deliver
+### Lesson 7: The Truth About How Many X's AI Will Deliver
 
 ___
 
-### The Hype vs Reality
+#### The Hype vs Reality
 
 | Promise | Hype | Reality | Timeline |
 |---------|------|---------|----------|
@@ -264,14 +313,16 @@ ___
 
 ___
 
-### Realistic Expectations
+#### Realistic Expectations
 - **Short-term (2025)**: 2-3x improvement in code generation
+
 - **Medium-term (2026-2027)**: 5-10x faster development cycles
+
 - **Long-term (2028+)**: Fundamental workflow transformation
 
 ___
 
-### Measuring True Impact
+#### Measuring True Impact
 ```
 Productivity = Quality × Speed × Developer Satisfaction
                   ↑        ↑              ↑
@@ -280,10 +331,13 @@ Productivity = Quality × Speed × Developer Satisfaction
 
 ___
 
-### The Compound Effect
+#### The Compound Effect
 - Small daily improvements compound exponentially
+
 - Tool integration creates multiplicative benefits
+
 - Learning curve investments pay long-term dividends
+
 - Team collaboration amplifies individual gains
 
 {{% /section %}}
