@@ -1,23 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ais on Jason Poley</title><link>https://jpoley.github.io/ai/</link><description>Recent content in Ais on Jason Poley</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://jpoley.github.io/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>AI World's Fair 2025</title><link>https://jpoley.github.io/ai/worlds-fair2025/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jpoley.github.io/ai/worlds-fair2025/</guid><description>&lt;h1 id="ai-worlds-fair">AI World&amp;rsquo;s Fair&lt;/h1>
-&lt;h2 id="transforming-the-development-landscape">Transforming the Development Landscape&lt;/h2>
-&lt;hr>
-&lt;h1 id="patrick-debois-a-hrefhttpsainativedevionewsai-engineering-sf-fair-2025-learnings-target_blank-relnoopener-noreferrer-7-lessons-learned-a">Patrick Debois: &lt;a href="https://ainativedev.io/news/ai-engineering-sf-fair-2025-learnings" target="_blank" rel="noopener noreferrer"> 7 Lessons Learned &lt;/a>&lt;/h1>
-&lt;hr>
-&lt;h2 id="lesson-1-ai-coding-agents-are-truly-everywhere">Lesson 1: AI Coding Agents are Truly Everywhere&lt;/h2>
-&lt;p>&amp;ndash;&lt;/p>
-&lt;h3 id="the-new-reality">The New Reality&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>IDE Integration&lt;/strong>: GitHub Copilot, Cursor, and VS Code extensions&lt;/li>
-&lt;li>&lt;strong>Cloud Platforms&lt;/strong>: Azure AI, AWS CodeWhisperer, Google Duet AI&lt;/li>
-&lt;li>&lt;strong>Command Line&lt;/strong>: AI-powered terminals and shell assistants&lt;/li>
-&lt;li>&lt;strong>Code Review&lt;/strong>: Automated PR analysis and suggestions&lt;/li>
-&lt;/ul>
-&lt;p>&amp;ndash;&lt;/p>
-&lt;h3 id="impact-on-development">Impact on Development&lt;/h3>
-&lt;ul>
-&lt;li>Code completion rates increased by 35-55%&lt;/li>
-&lt;li>Debugging assistance across all tech stacks&lt;/li>
-&lt;li>Documentation generation becoming automated&lt;/li>
-&lt;li>Testing scenarios created by AI analysis&lt;/li>
-&lt;/ul>
-&lt;p>&amp;ndash;&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ais on Jason Poley</title>
+    <link>https://jpoley.github.io/ai/</link>
+    <description>Recent content in Ais on Jason Poley</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://jpoley.github.io/ai/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

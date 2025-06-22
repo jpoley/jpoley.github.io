@@ -3,7 +3,7 @@
 # Extract content from the AI World's Fair presentation Markdown file
 # Skip the frontmatter (lines between --- and ---)
 SRC_FILE="/Users/jasonpoley/src/jpoley.github.io/docs/ai-worlds-fair-presentation.md"
-DEST_FILE="/Users/jasonpoley/src/jpoley.github.io/content/ai/worlds-fair2025/index.md"
+DEST_FILE="/Users/jasonpoley/src/jpoley.github.io/content/ai/worlds-fair/_index.md"
 
 # Create temporary file with frontmatter
 cat > "$DEST_FILE" << EOL

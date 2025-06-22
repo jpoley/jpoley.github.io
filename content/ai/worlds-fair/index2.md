@@ -1,3 +1,11 @@
++++
+title = "AI World's Fair 2025 - Useful Links" 
+outputs = ["Reveal"]
+weight = 20
+[reveal_hugo]
+theme = "black"
++++
+
 <h2> Useful Links</h2>
 
 <section>
