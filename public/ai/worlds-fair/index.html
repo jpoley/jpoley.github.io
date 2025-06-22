@@ -401,43 +401,18 @@ Leading Valuations:
 <a href="https://www.youtube.com/watch?v=9u6xvcNJaxc" target="_blank" rel="noopener noreferrer">Patrick Debois - 4 types</a><br></p>
 </section>
 </section>
-    <section><h1 id="mcp-vs-a2a-protocols">MCP vs A2A Protocols</h1>
-<table>
-  <thead>
-      <tr>
-          <th>Category</th>
-          <th>MCP</th>
-          <th>A2A</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Transport &amp; Communication</strong></td>
-          <td>JSON-RPC with stdio (local) or HTTP+SSE/Streamable HTTP (remote). RPC-style method calls on remote systems.</td>
-          <td>JSON-RPC 2.0 wrapped in HTTP POST. Multi-layered approach. All operations use POST.</td>
-      </tr>
-      <tr>
-          <td><strong>State Management</strong></td>
-          <td>Inherently stateless at protocol level. Individual servers can implement custom state management.</td>
-          <td>Most comprehensive: session-level (context IDs), agent-level (internal state), task-level (TaskStore).</td>
-      </tr>
-      <tr>
-          <td><strong>Discoverability</strong></td>
-          <td>No standardized discovery. Manual via config files (e.g., <code>claude_desktop_config.json</code>). Planned registry.</td>
-          <td>Agent Cards at well-known URIs (<code>/.well-known/agent.json</code>). Supports online and offline registry discovery.</td>
-      </tr>
-      <tr>
-          <td><strong>Message Structure</strong></td>
-          <td>JSON-RPC 2.0 for capability-based ops. Extensible via custom method definitions. Tool-focused.</td>
-          <td>Three explicit part types: TextPart, FilePart, DataPart. Structured but needs protocol updates for new types.</td>
-      </tr>
-      <tr>
-          <td><strong>Development Complexity</strong></td>
-          <td>Minimal setup: single server file with decorators. SDK handles protocol formatting and transport.</td>
-          <td>Slightly more involved: agent logic, executor, main server. Greater separation of concerns.</td>
-      </tr>
-  </tbody>
-</table>
+    <section><!DOCTYPE html>
+<html>
+<head>
+  <title>AI World's Fair 2025 - Simple Page</title>
+</head>
+<body>
+  <h1>AI World's Fair 2025</h1>
+  <h2>Transforming the Development Landscape</h2>
+  
+  <p>This is a simple HTML test page to verify GitHub Pages deployment.</p>
+</body>
+</html>
 </section>
 
 </div>
