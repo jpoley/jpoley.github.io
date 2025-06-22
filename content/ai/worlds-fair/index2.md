@@ -50,15 +50,15 @@ ___
   - Traction across vendors
   - Critical to agent orchestration moving forward
 
-___
+
 
 {{% / section %}}
 
-___
+
+{{% section %}}
 
 ## 2. Security Must Be a First‑Class Citizen
 
-{{% section %}}
 ___
 
 - **Security frameworks** are becoming vital
@@ -81,16 +81,18 @@ ___
   - Multiple academic papers confirm its urgency
   - Existing guardrails remain nascent
 
-___
 
 
 {{% /section %}}
 
-___
+
+
+
+{{% section %}}
 
 ## 3. Evals Remain the Hardest and Most Indispensable
 
-{{% section %}}
+
 ___
 
 - The Evals track underscored critical challenges
@@ -114,11 +116,15 @@ ___
 
 ___
 
+
 {{% /section %}}
 
-## 4. Specs-as-Code: Specifications Are The New Code
+
+
 
 {{% section %}}
+
+## 4. Specs-as-Code: Specifications Are The New Code
 
 ___
 
@@ -145,9 +151,10 @@ ___
 
 {{% /section %}}
 
-## 5. Security-By-Design Overhaul for Autonomous Models
 
 {{% section %}}
+
+## 5. Security-By-Design Overhaul for Autonomous Models
 
 ___
 
@@ -175,9 +182,12 @@ ___
 
 {{% /section %}}
 
-## 📌 References & Reasoning
 
 {{% section %}}
+
+## 📌 References & Reasoning
+
+___
 
 |       Lesson       |           Source(s)          |                Why Selected               |
 |--------------------|------------------------------|-------------------------------------------|
