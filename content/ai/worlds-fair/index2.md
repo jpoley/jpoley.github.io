@@ -181,20 +181,3 @@ ___
 ___
 
 {{% /section %}}
-
-
-{{% section %}}
-
-## 📌 References & Reasoning
-
-___
-
-|       Lesson       |           Source(s)          |                Why Selected               |
-|--------------------|------------------------------|-------------------------------------------|
-| MCP spec maturity  | Publications from spec track | Core to the MCP track and spec evolution  |
-| Security frameworks| Security track presentations | Academic depth confirms significance      |
-| Evals complexity   | Multiple presentations       | Recurring theme across multiple talks     |
-| Specs-as-code      | SWE-Agents/SPEC track       | Fresh insight not in original summary     |
-| Security-by-design | Security track keynotes      | Novel architectural push beyond standard security |
-
-{{% /section %}}
