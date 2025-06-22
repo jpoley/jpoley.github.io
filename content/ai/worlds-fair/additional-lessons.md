@@ -8,6 +8,8 @@ controls = true
 progress = true
 center = true
 hash = true
+slide_number = true
+vertical_center = true
 +++
 
 # 🎯 Additional Key Lessons 
@@ -17,7 +19,7 @@ hash = true
 
 ## 1. Deep Dive on MCP and Its Spec
 
---
+___
 
 - **MCP has matured into a full-blown standard protocol**
   - Streamable HTTP (HTTP POST + SSE)
@@ -26,13 +28,13 @@ hash = true
   - Elicitation flows
   - Enabling truly dynamic agent‑to‑agent communication
 
---
+___
 
 - **Vertical server patterns**
   - Domain‑specific MCP servers
   - Best practices from Anthropic and community contributors
 
---
+___
 
 - **Engineering reasoning**
   - Dedicated MCP track
@@ -44,14 +46,14 @@ hash = true
 
 ## 2. Security Must Be a First‑Class Citizen
 
---
+___
 
 - **Security frameworks** are becoming vital
   - "MCP Guardian" and similar approaches
   - Defense‑in‑depth with authentication, rate-limiting, audit logs, WAF scanning
   - Protection for agent-tool chains
 
---
+___
 
 - **Security‑by‑design** practices highlighted during the Security track
   - Continuous risk assessment
@@ -59,7 +61,7 @@ hash = true
   - Anomaly detection
   - Comprehensive logging at every system layer
 
---
+___
 
 - **Reasoning**
   - Security's inclusion as a main conference track
@@ -70,21 +72,21 @@ hash = true
 
 ## 3. Evals Remain the Hardest and Most Indispensable
 
---
+___
 
 - The Evals track underscored critical challenges
   - **Eval is universally recognized as mission-critical**
   - Manual creation remains a bottleneck
   - Building automated, semantic/trajectory-based eval pipelines is still next-gen work
 
---
+___
 
 - Production implementations emerging
   - Teams like Braintrust and Zapier using **AI-driven scorers**
   - Deploying both explicit and implicit feedback pipelines
   - Better assessment of performance in production
 
---
+___
 
 - **Engineering reasoning**
   - "Evals" as a named core track
@@ -95,21 +97,21 @@ hash = true
 
 ## 4. Specs-as-Code: Specifications Are The New Code
 
---
+___
 
 - Adoption of **Specification‑Driven Development**
   - Especially around *ModelSpecs*
   - Specs written in markdown (e.g., rules.md) become executable contracts
   - More durable than ephemeral prompts
 
---
+___
 
 - Sean Grove's presentation emphasized key benefits
   - Structured specs embed intent and requirements
   - Includes verifiable tests
   - Stronger foundation for LLM reliability and reproducibility
 
---
+___
 
 - **Why included**
   - Not covered in the original 7-market learnings
@@ -120,7 +122,7 @@ hash = true
 
 ## 5. Security-By-Design Overhaul for Autonomous Models
 
---
+___
 
 - A freshly introduced paradigm from the Security track
   - **Risk‑aware, security‑by‑design pipelines** for large-scale autonomous models
@@ -128,14 +130,14 @@ hash = true
   - Runtime anomaly detection
   - Hardened training approaches
 
---
+___
 
 - Case studies validate importance
   - National-security applications
   - Industrial deployments
   - Need for "provable behavior guarantees" in live AI systems
 
---
+___
 
 - **Rationale**
   - Signals a leap forward in AI security

@@ -2,12 +2,14 @@
 title = "AI World's Fair 2025"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "black"
+theme = "moon"
 transition = "slide"
 controls = true
 progress = true
 center = true
 hash = true
+slide_number = true
+vertical_center = true
 +++
 
 # AI World's Fair
@@ -21,7 +23,7 @@ hash = true
 
 ## Lesson 1: AI Coding Agents are Truly Everywhere
 
---
+___
 
 ### The New Reality
 - **IDE Integration**: GitHub Copilot, Cursor, and VS Code extensions
@@ -29,7 +31,7 @@ hash = true
 - **Command Line**: AI-powered terminals and shell assistants
 - **Code Review**: Automated PR analysis and suggestions
 
---
+___
 
 ### Impact on Development
 - Code completion rates increased by 35-55%
@@ -37,7 +39,7 @@ hash = true
 - Documentation generation becoming automated
 - Testing scenarios created by AI analysis
 
---
+___
 
 ### Developer Adoption Patterns
 ```
@@ -50,14 +52,14 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
 
 ## Lesson 2: Using AI Tools Like You Did 6 Months Ago Is a Mistake
 
---
+___
 
 ### Evolution of AI Capabilities
 - **6 Months Ago**: Basic code completion
 - **Today**: Context-aware reasoning, multi-file refactoring
 - **Tomorrow**: Full project understanding and architecture
 
---
+___
 
 ### Outdated Approaches
 ❌ **Treating AI as autocomplete**
@@ -65,7 +67,7 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
 ❌ **Ignoring context windows**
 ❌ **Manual prompt engineering**
 
---
+___
 
 ### Modern Best Practices
 ✅ **Iterative conversations with AI**
@@ -73,7 +75,7 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
 ✅ **Multi-modal interactions**
 ✅ **Workflow integration**
 
---
+___
 
 ### The Learning Curve
 > "The developers who adapt their workflow to leverage AI's evolving capabilities will have a 10x advantage over those who don't."
@@ -83,7 +85,7 @@ Traditional Development → AI-Assisted Development → AI-Driven Development
 
 ## Lesson 3: Specs are the New Code
 
---
+___
 
 ### The Paradigm Shift
 ```
@@ -91,7 +93,7 @@ Traditional: Spec → Code → Test → Deploy
 Modern: Spec → AI Generated Code → Validate → Deploy
 ```
 
---
+___
 
 ### Specification-Driven Development
 - **Natural Language Requirements** become executable
@@ -99,7 +101,7 @@ Modern: Spec → AI Generated Code → Validate → Deploy
 - **Test Cases** drive code creation
 - **Architecture Diagrams** become deployable infrastructure
 
---
+___
 
 ### Tools Enabling This Shift
 - **OpenAPI Specs** → Full REST API implementations
@@ -107,7 +109,7 @@ Modern: Spec → AI Generated Code → Validate → Deploy
 - **Infrastructure as Code** from architectural descriptions
 - **Database Schemas** from business requirements
 
---
+___
 
 ### Quality Through Specifications
 - Reduced translation errors
@@ -119,7 +121,7 @@ Modern: Spec → AI Generated Code → Validate → Deploy
 
 ## Lesson 4: Agents … from IDE to the Cloud!
 
---
+___
 
 ### The Agent Ecosystem
 ```
@@ -132,7 +134,7 @@ Cloud Infrastructure Agents
 Production Monitoring Agents
 ```
 
---
+___
 
 ### IDE Agents
 - **Code Generation**: Context-aware suggestions
@@ -140,7 +142,7 @@ Production Monitoring Agents
 - **Testing**: Automated test case generation
 - **Documentation**: Real-time docs updates
 
---
+___
 
 ### Pipeline Agents
 - **Build Optimization**: Dynamic dependency management
@@ -148,7 +150,7 @@ Production Monitoring Agents
 - **Performance Analysis**: Automated bottleneck identification
 - **Deployment Strategies**: Environment-specific configurations
 
---
+___
 
 ### Cloud Agents
 - **Resource Optimization**: Cost and performance tuning
@@ -160,7 +162,7 @@ Production Monitoring Agents
 
 ## Lesson 5: Parallel Execution Means Parallel Exploration
 
---
+___
 
 ### Traditional Sequential Development
 ```
@@ -169,7 +171,7 @@ Plan → Design → Code → Test → Debug → Deploy
  Wait → Wait → Wait → Wait → Wait → Wait
 ```
 
---
+___
 
 ### AI-Enabled Parallel Exploration
 ```
@@ -178,7 +180,7 @@ Plan ←→ Design ←→ Code ←→ Test ←→ Debug ←→ Deploy
 Multiple AI agents working simultaneously
 ```
 
---
+___
 
 ### Concurrent Development Streams
 - **Architecture exploration** while coding
@@ -186,7 +188,7 @@ Multiple AI agents working simultaneously
 - **Performance optimization** in parallel with features
 - **Security analysis** throughout the pipeline
 
---
+___
 
 ### Benefits of Parallel Exploration
 - **Faster time-to-market**: 40-60% reduction in development cycles
@@ -198,7 +200,7 @@ Multiple AI agents working simultaneously
 
 ## Lesson 6: AI is Shifting CI/CD Left
 
---
+___
 
 ### Traditional CI/CD Pipeline
 ```
@@ -207,7 +209,7 @@ Code → Commit → Build → Test → Deploy → Monitor
             First quality gate
 ```
 
---
+___
 
 ### AI-Shifted Left Pipeline
 ```
@@ -216,7 +218,7 @@ AI-Assisted Code → AI-Validated Commit → Smart Build → Predictive Test →
    Quality starts here   Continuous validation throughout the pipeline
 ```
 
---
+___
 
 ### Pre-Commit AI Integration
 - **Code quality analysis** before commit
@@ -224,7 +226,7 @@ AI-Assisted Code → AI-Validated Commit → Smart Build → Predictive Test →
 - **Performance impact prediction** during development
 - **Dependency conflict resolution** in real-time
 
---
+___
 
 ### Intelligent Pipeline Optimization
 - **Predictive test selection**: Run only relevant tests
@@ -236,7 +238,7 @@ AI-Assisted Code → AI-Validated Commit → Smart Build → Predictive Test →
 
 ## Lesson 7: The Truth About How Many X's AI Will Deliver
 
---
+___
 
 ### The Hype vs Reality
 
@@ -246,14 +248,14 @@ AI-Assisted Code → AI-Validated Commit → Smart Build → Predictive Test →
 | 100x Speed | 🚀 Next year | ⚡ 5-10x builds | 2026-2028 |
 | 1000x Efficiency | 🌟 Coming soon | 🔧 Process optimization | 2028+ |
 
---
+___
 
 ### Realistic Expectations
 - **Short-term (2025)**: 2-3x improvement in code generation
 - **Medium-term (2026-2027)**: 5-10x faster development cycles
 - **Long-term (2028+)**: Fundamental workflow transformation
 
---
+___
 
 ### Measuring True Impact
 ```
@@ -262,7 +264,7 @@ Productivity = Quality × Speed × Developer Satisfaction
               AI helps   AI accelerates   AI reduces toil
 ```
 
---
+___
 
 ### The Compound Effect
 - Small daily improvements compound exponentially
@@ -278,7 +280,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 
 ## Major AI Coding Platforms
 
---
+___
 
 ### GitHub (Microsoft)
 **GitHub Copilot & Copilot Workspace**
@@ -287,7 +289,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - 🚀 **Innovation**: Chat interface, PR summaries, CLI assistance
 - 💰 **Pricing**: $10-19/month per user
 
---
+___
 
 ### Cursor
 **AI-First Code Editor**
@@ -296,7 +298,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - 🚀 **Innovation**: Composer mode, codebase understanding
 - 💰 **Pricing**: $20/month, free tier available
 
---
+___
 
 ### Anthropic
 **Claude for Coding**
@@ -305,7 +307,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - 🚀 **Innovation**: Artifacts for code visualization
 - 💰 **Pricing**: API-based, $15-75/month
 
---
+___
 
 ### Amazon
 **CodeWhisperer**
@@ -314,7 +316,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - 🚀 **Innovation**: Security scanning, policy compliance
 - 💰 **Pricing**: Free tier, $19/month professional
 
---
+___
 
 ### Google
 **Duet AI / Gemini Code Assist**
@@ -323,7 +325,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - 🚀 **Innovation**: Multimodal capabilities, voice coding
 - 💰 **Pricing**: $19/month, GCP credits included
 
---
+___
 
 ### JetBrains
 **AI Assistant**
@@ -336,7 +338,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 
 ## Emerging Players & Specialized Tools
 
---
+___
 
 ### Specialized AI Coding Tools
 
@@ -352,7 +354,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - Focus: Free alternative to Copilot
 - Strength: Multi-language support
 
---
+___
 
 ### Open Source Alternatives
 
@@ -372,7 +374,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 
 ## Market Trends & Future Outlook
 
---
+___
 
 ### 2025 Predictions
 - **Consolidation**: Major platforms acquire specialized tools
@@ -380,7 +382,7 @@ Productivity = Quality × Speed × Developer Satisfaction
 - **Context Expansion**: Larger context windows become standard
 - **Multi-modal**: Voice and visual coding interfaces
 
---
+___
 
 ### Investment & Valuation
 ```
@@ -393,7 +395,7 @@ Leading Valuations:
 - Tabnine: $200M+ funding
 ```
 
---
+___
 
 ### Key Differentiators
 1. **Context Understanding**: How much code can the AI reason about?
