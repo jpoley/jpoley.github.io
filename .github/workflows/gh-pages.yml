@@ -30,9 +30,9 @@ jobs:
           echo "Building site with Hugo..."
           hugo --gc --minify
           echo "Content of public directory (top level):"
-          find public -maxdepth 2 -type d | sort
-          # Remove any old redirected paths
-          find public -path "*ai-worlds-fair*" -o -path "*worlds-fair2025*" -exec rm -rf {} \; 2>/dev/null || true
+          find public -type f | grep -v "reveal" | sort
+          # Create simple test page to verify deployment
+          echo "<html><body><h1>Test Page - $(date)</h1><p>This is a test page to verify deployment.</p><p><a href='/ai/worlds-fair/'>Go to AI World's Fair</a></p></body></html>" > public/test-page.html
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
