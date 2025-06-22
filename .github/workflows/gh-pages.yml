@@ -40,4 +40,3 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages  # deploying branch
           force_orphan: true  # Completely replace the gh-pages branch content each time
-          cname: jpoley.github.io  # Optional: add if you have a custom domain

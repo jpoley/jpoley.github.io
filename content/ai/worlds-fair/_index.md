@@ -1,6 +1,7 @@
 +++
 title = "AI World's Fair 2025"
 outputs = ["Reveal"]
+aliases = ["/ai-worlds-fair/", "/ai/worlds-fair2025/"]
 [reveal_hugo]
 theme = "black"
 transition = "slide"
