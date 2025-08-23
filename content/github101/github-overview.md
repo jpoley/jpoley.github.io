@@ -33,6 +33,11 @@ vertical_center = true
 - Manual deployment processes
 - Disconnected security tools
 
+### 🔗 **Real Examples**
+- **Spring Boot**: [github.com/spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - 70k+ stars, enterprise Java
+- **Pandas**: [github.com/pandas-dev/pandas](https://github.com/pandas-dev/pandas) - 38k+ stars, data science powerhouse
+- **Next.js**: [github.com/vercel/next.js](https://github.com/vercel/next.js) - 110k+ stars, production React framework
+
 ---
 
 ## Key Concepts in Plain English
@@ -62,6 +67,11 @@ vertical_center = true
 - **Conversation** (discussion about the change)
 - **Checks** (automated quality tests)
 - **Reviews** (approvals from stakeholders)
+
+### 🔗 **Live Examples**
+- **Spring Boot PR**: [Example PR with CodeQL](https://github.com/spring-projects/spring-boot/pull/40000)
+- **Pandas PR**: [Example PR with Actions](https://github.com/pandas-dev/pandas/pull/60000)
+- **Next.js PR**: [Example PR with Dependabot](https://github.com/vercel/next.js/pull/60000)
 
 ---
 

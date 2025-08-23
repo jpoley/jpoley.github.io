@@ -120,6 +120,25 @@ vertical_center = true
 
 ---
 
+## 🚀 **Live Repository Demos**
+
+### 📱 **Section 10: Real GitHub Examples**
+- **[All 12 Repository Demos]({{< ref "all-repos-demo" >}})** - Comprehensive tour of live examples
+- **Java Examples**: Spring Boot & OpenSearch
+- **Python Examples**: Pandas & Requests
+- **Go Examples**: Cobra & GolangCI-Lint
+- **Node.js/TypeScript**: Next.js & Playwright
+- **C++ Examples**: Protocol Buffers & Windows Terminal
+- **Cross-Language**: Homebrew & Terraform
+
+### 🎯 **What You'll See**
+- **Live repository navigation** during the session
+- **Real GitHub Actions** workflows running in production
+- **Security features** like CodeQL and Dependabot
+- **Enterprise patterns** you can implement
+
+---
+
 ## Navigation Tips
 
 ### 🔍 **How to Navigate**
@@ -150,3 +169,56 @@ vertical_center = true
 ## Section 1: SDLC Overview
 
 {{% /section %}}
+
+---
+
+## 🚀 **Live Repository Demos - Section 10**
+
+### 📱 **Real GitHub Examples You'll See**
+- **Java**: Spring Boot & OpenSearch
+- **Python**: Pandas & Requests  
+- **Go**: Cobra & GolangCI-Lint
+- **Node.js/TypeScript**: Next.js & Playwright
+- **C++**: Protocol Buffers & Windows Terminal
+- **Cross-Language**: Homebrew & Terraform
+
+### 🔗 **Repository Links**
+- **Spring Boot**: [github.com/spring-projects/spring-boot](https://github.com/spring-projects/spring-boot)
+- **Pandas**: [github.com/pandas-dev/pandas](https://github.com/pandas-dev/pandas)
+- **Next.js**: [github.com/vercel/next.js](https://github.com/vercel/next.js)
+- **Playwright**: [github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+- **Protocol Buffers**: [github.com/protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
+- **Homebrew**: [github.com/Homebrew/brew](https://github.com/Homebrew/brew)
+
+---
+
+## 🎯 **What You'll Demo Live**
+
+### 🔍 **Actions Tab Navigation**
+- **CodeQL Workflows**: Security scanning in real-time
+- **Build & Test**: CI/CD pipelines running
+- **Dependabot Updates**: Automated dependency management
+- **Release Workflows**: Production deployment processes
+
+### 🔒 **Security Features**
+- **CodeQL Analysis**: Vulnerability detection
+- **Dependabot Configuration**: Update schedules
+- **Security Policies**: Compliance requirements
+- **Real-time Alerts**: Live security monitoring
+
+---
+
+## 📋 **Demo Session Structure**
+
+### 🚀 **During the Presentation**
+1. **Quick overview** of each repository
+2. **Live navigation** through selected examples
+3. **Feature demonstration** (Actions, Security, Dependabot)
+4. **Q&A** on implementation details
+5. **Next steps** for your organization
+
+### 💡 **Pro Tips**
+- **Have repositories open** in separate tabs
+- **Show failed workflows** to demonstrate quality gates
+- **Point out** recent security findings
+- **Explain** how patterns apply to your needs

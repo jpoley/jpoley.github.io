@@ -28,6 +28,7 @@ highlight_theme = "monokai"
 
 # Enable custom JS and CSS for reveal.js
 custom_theme = "reveal-hugo/themes/robot-lung.css"
+custom_css = "css/custom-theme.css"
 custom_js = "js/custom.js"
 
 # Add more settings for reveal.js

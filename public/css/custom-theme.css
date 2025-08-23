@@ -1,0 +1,60 @@
+/* Custom CSS to reduce font sizes for GitHub demo */
+.reveal {
+  font-size: 24px !important; /* Reduced from 32px */
+}
+
+.reveal h1 {
+  font-size: 2.2em !important; /* Reduced from 2.6em */
+}
+
+.reveal h2 {
+  font-size: 1.8em !important; /* Reduced from 2.2em */
+}
+
+.reveal h3 {
+  font-size: 1.4em !important; /* Reduced from 1.7em */
+}
+
+.reveal h4 {
+  font-size: 1.2em !important; /* Reduced from 1.4em */
+}
+
+.reveal p {
+  font-size: 0.9em !important;
+  line-height: 1.4 !important;
+}
+
+.reveal ul, .reveal ol {
+  font-size: 0.9em !important;
+}
+
+.reveal li {
+  margin-bottom: 8px !important;
+}
+
+.reveal table {
+  font-size: 0.8em !important;
+}
+
+.reveal pre {
+  font-size: 0.5em !important; /* Reduced from 0.55em */
+}
+
+.reveal blockquote {
+  font-size: 0.85em !important;
+}
+
+/* Improve readability for code blocks */
+.reveal code {
+  font-size: 0.8em !important;
+}
+
+/* Better spacing for lists */
+.reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
+  margin-left: 30px !important; /* Reduced from 40px */
+}
+
+/* Improve table readability */
+.reveal table th, .reveal table td {
+  padding: 0.15em 0.4em 0.15em 0.4em !important; /* Reduced padding */
+}
