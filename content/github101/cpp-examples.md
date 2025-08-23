@@ -3,13 +3,9 @@ title = "C++ Repository Examples - Live GitHub Demos"
 weight = 14
 +++
 
-{{% section %}}
-
-## C++ Repository Examples - Live GitHub Demos
+# C++ Repository Examples - Live GitHub Demos
 
 **Real-world examples of GitHub Enterprise features in C++ projects**
-
-{{% /section %}}
 
 ---
 
@@ -40,10 +36,6 @@ weight = 14
 - **Actions**: [github.com/protocolbuffers/protobuf/actions](https://github.com/protocolbuffers/protobuf/actions)
 - **Security**: [github.com/protocolbuffers/protobuf/security](https://github.com/protocolbuffers/protobuf/security)
 
----
-
-## Protocol Buffers - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **CodeQL Analysis**: [CodeQL Analysis](https://github.com/protocolbuffers/protobuf/actions/workflows/github-code-scanning/codeql)
 - **Test Runner**: [Test Runner](https://github.com/protocolbuffers/protobuf/actions/workflows/test_runner.yml)
@@ -55,21 +47,11 @@ weight = 14
 - **Dependabot Configuration**: [.github/dependabot.yml](https://github.com/protocolbuffers/protobuf/blob/main/.github/dependabot.yml)
 - **Security Policy**: [SECURITY.md](https://github.com/protocolbuffers/protobuf/blob/main/SECURITY.md)
 
----
-
-## Protocol Buffers - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/protocolbuffers/protobuf/actions](https://github.com/protocolbuffers/protobuf/actions)
 2. **Click on "CodeQL Analysis"** workflow
 3. **Show recent runs** and security findings
 4. **Demonstrate** how security scanning integrates with CI/CD
-
-### 🏗️ **Bazel Integration**
-1. **Navigate to** [Test Runner workflow](https://github.com/protocolbuffers/protobuf/actions/workflows/test_runner.yml)
-2. **Show** Bazel build system integration
-3. **Highlight** complex build matrix and toolchains
-4. **Explain** how this demonstrates enterprise-scale CI/CD
 
 ---
 
@@ -85,10 +67,6 @@ weight = 14
 - **Actions**: [github.com/microsoft/terminal/actions](https://github.com/microsoft/terminal/actions)
 - **Security**: [github.com/microsoft/terminal/security](https://github.com/microsoft/terminal/security)
 
----
-
-## Windows Terminal - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **CodeQL Advanced**: [CodeQL Advanced](https://github.com/microsoft/terminal/actions/workflows/codeql.yml)
 - **Build & Test**: [Build and Test](https://github.com/microsoft/terminal/actions/workflows/build-and-test.yml)
@@ -100,21 +78,11 @@ weight = 14
 - **Defender for DevOps**: Microsoft security integration
 - **Security Policy**: [SECURITY.md](https://github.com/microsoft/terminal/blob/main/SECURITY.md)
 
----
-
-## Windows Terminal - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/microsoft/terminal/actions](https://github.com/microsoft/terminal/actions)
 2. **Click on "CodeQL Advanced"** workflow
 3. **Show recent runs** and security findings
 4. **Demonstrate** enterprise-grade security scanning
-
-### 🏗️ **Build System**
-1. **Navigate to** [Build and Test workflow](https://github.com/microsoft/terminal/actions/workflows/build-and-test.yml)
-2. **Show** C/C++ CI patterns
-3. **Highlight** multi-platform build support
-4. **Explain** how this demonstrates production deployment
 
 ---
 
@@ -166,10 +134,6 @@ weight = 14
 
 ---
 
-{{% section %}}
-
 ## Ready to Explore C++ Examples?
 
 **Let's dive into Protocol Buffers and Windows Terminal to see enterprise-grade GitHub workflows in action!**
-
-{{% /section %}}

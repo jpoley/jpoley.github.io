@@ -3,13 +3,9 @@ title = "Cross-Language Repository Examples - Live GitHub Demos"
 weight = 15
 +++
 
-{{% section %}}
-
-## Cross-Language Repository Examples - Live GitHub Demos
+# Cross-Language Repository Examples - Live GitHub Demos
 
 **Real-world examples of GitHub Enterprise features across multiple programming languages**
-
-{{% /section %}}
 
 ---
 
@@ -40,10 +36,6 @@ weight = 15
 - **Actions**: [github.com/Homebrew/brew/actions](https://github.com/Homebrew/brew/actions)
 - **Security**: [github.com/Homebrew/brew/security](https://github.com/Homebrew/brew/security)
 
----
-
-## Homebrew - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **CodeQL Analysis**: [CodeQL Analysis](https://github.com/Homebrew/brew/actions/workflows/codeql-analysis.yml)
 - **Test Suite**: [Test](https://github.com/Homebrew/brew/actions/workflows/test.yml)
@@ -55,21 +47,11 @@ weight = 15
 - **Dependabot Configuration**: [.github/dependabot.yml](https://github.com/Homebrew/brew/blob/master/.github/dependabot.yml)
 - **Security Policy**: [SECURITY.md](https://github.com/Homebrew/brew/blob/master/SECURITY.md)
 
----
-
-## Homebrew - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/Homebrew/brew/actions](https://github.com/Homebrew/brew/actions)
 2. **Click on "CodeQL Analysis"** workflow
 3. **Show recent runs** and security findings
 4. **Demonstrate** extensive security scanning history
-
-### 📊 **Dependabot Integration**
-1. **Navigate to** [.github/dependabot.yml](https://github.com/Homebrew/brew/blob/master/.github/dependabot.yml)
-2. **Show** how dependency updates are configured
-3. **Explain** update schedules and ecosystems
-4. **Link to** actual Dependabot PRs in the repository
 
 ---
 
@@ -85,10 +67,6 @@ weight = 15
 - **Actions**: [github.com/hashicorp/terraform/actions](https://github.com/hashicorp/terraform/actions)
 - **Security**: [github.com/hashicorp/terraform/security](https://github.com/hashicorp/terraform/security)
 
----
-
-## Terraform - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **Large set of Actions**: [github.com/hashicorp/terraform/actions](https://github.com/hashicorp/terraform/actions)
 - **Backport Assistants**: [Backport Assistants](https://github.com/hashicorp/terraform/actions/workflows/backport-assistants.yml)
@@ -100,21 +78,11 @@ weight = 15
 - **Security Policy**: [SECURITY.md](https://github.com/hashicorp/terraform/blob/main/SECURITY.md)
 - **Code of Conduct**: Community standards
 
----
-
-## Terraform - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/hashicorp/terraform/actions](https://github.com/hashicorp/terraform/actions)
 2. **Show workflow diversity** (backport assistants, build, checks)
 3. **Highlight** "Dependabot Updates" workflow
 4. **Demonstrate** production deployment workflows
-
-### 📊 **Dependabot Integration**
-1. **Navigate to** [.github/dependabot.yml](https://github.com/hashicorp/terraform/blob/main/.github/dependabot.yml)
-2. **Show** how dependency updates are configured
-3. **Explain** update schedules and ecosystems
-4. **Link to** actual Dependabot PRs in the repository
 
 ---
 
@@ -166,10 +134,6 @@ weight = 15
 
 ---
 
-{{% section %}}
-
 ## Ready to Explore Cross-Language Examples?
 
 **Let's dive into Homebrew and Terraform to see enterprise-grade GitHub workflows in action!**
-
-{{% /section %}}

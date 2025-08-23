@@ -3,13 +3,9 @@ title = "Go Repository Examples - Live GitHub Demos"
 weight = 12
 +++
 
-{{% section %}}
-
-## Go Repository Examples - Live GitHub Demos
+# Go Repository Examples - Live GitHub Demos
 
 **Real-world examples of GitHub Enterprise features in Go projects**
-
-{{% /section %}}
 
 ---
 
@@ -40,10 +36,6 @@ weight = 12
 - **Actions**: [github.com/spf13/cobra/actions](https://github.com/spf13/cobra/actions)
 - **Security**: [github.com/spf13/cobra/security](https://github.com/spf13/cobra/security)
 
----
-
-## Cobra - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **CodeQL Analysis**: [CodeQL Analysis](https://github.com/spf13/cobra/actions/workflows/codeql-analysis.yml)
 - **Test**: [Test](https://github.com/spf13/cobra/actions/workflows/test.yml)
@@ -55,21 +47,11 @@ weight = 12
 - **Dependabot Configuration**: [.github/dependabot.yml](https://github.com/spf13/cobra/blob/main/.github/dependabot.yml)
 - **Security Policy**: [SECURITY.md](https://github.com/spf13/cobra/blob/main/SECURITY.md)
 
----
-
-## Cobra - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/spf13/cobra/actions](https://github.com/spf13/cobra/actions)
 2. **Click on "CodeQL Analysis"** workflow
 3. **Show recent runs** and security findings
 4. **Demonstrate** how security scanning integrates with CI/CD
-
-### 📊 **Security Tab**
-1. **Navigate to Security** → [github.com/spf13/cobra/security](https://github.com/spf13/cobra/security)
-2. **Show Code scanning** results
-3. **Highlight** vulnerability alerts and fixes
-4. **Explain** how this helps with compliance
 
 ---
 
@@ -85,10 +67,6 @@ weight = 12
 - **Actions**: [github.com/golangci/golangci-lint/actions](https://github.com/golangci/golangci-lint/actions)
 - **Security**: [github.com/golangci/golangci-lint/security](https://github.com/golangci/golangci-lint/security)
 
----
-
-## GolangCI-Lint - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **CodeQL Analysis**: [CodeQL Analysis](https://github.com/golangci/golangci-lint/actions/workflows/codeql-analysis.yml)
 - **Test**: [Test](https://github.com/golangci/golangci-lint/actions/workflows/test.yml)
@@ -100,21 +78,11 @@ weight = 12
 - **Dependabot Configuration**: [.github/dependabot.yml](https://github.com/golangci/golangci-lint/blob/master/.github/dependabot.yml)
 - **Security Policy**: [SECURITY.md](https://github.com/golangci/golangci-lint/blob/master/SECURITY.md)
 
----
-
-## GolangCI-Lint - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/golangci/golangci-lint/actions](https://github.com/golangci/golangci-lint/actions)
 2. **Click on "CodeQL Analysis"** workflow
 3. **Show recent runs** and security findings
 4. **Demonstrate** how security scanning integrates with CI/CD
-
-### 📊 **Dependabot Integration**
-1. **Navigate to** [.github/dependabot.yml](https://github.com/golangci/golangci-lint/blob/master/.github/dependabot.yml)
-2. **Show** how dependency updates are configured
-3. **Explain** update schedules and ecosystems
-4. **Link to** actual Dependabot PRs in the repository
 
 ---
 
@@ -166,10 +134,6 @@ weight = 12
 
 ---
 
-{{% section %}}
-
 ## Ready to Explore Go Examples?
 
 **Let's dive into Cobra and GolangCI-Lint to see enterprise-grade GitHub workflows in action!**
-
-{{% /section %}}

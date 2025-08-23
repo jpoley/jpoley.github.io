@@ -3,13 +3,9 @@ title = "Node.js/TypeScript Repository Examples - Live GitHub Demos"
 weight = 13
 +++
 
-{{% section %}}
-
-## Node.js/TypeScript Repository Examples - Live GitHub Demos
+# Node.js/TypeScript Repository Examples - Live GitHub Demos
 
 **Real-world examples of GitHub Enterprise features in Node.js/TypeScript projects**
-
-{{% /section %}}
 
 ---
 
@@ -40,10 +36,6 @@ weight = 13
 - **Actions**: [github.com/vercel/next.js/actions](https://github.com/vercel/next.js/actions)
 - **Security**: [github.com/vercel/next.js/security](https://github.com/vercel/next.js/security)
 
----
-
-## Next.js - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **Extensive Actions workflows**: [github.com/vercel/next.js/actions](https://github.com/vercel/next.js/actions)
 - **Build & Test**: Multiple testing strategies
@@ -55,21 +47,11 @@ weight = 13
 - **Security Policy**: [SECURITY.md](https://github.com/vercel/next.js/blob/canary/SECURITY.md)
 - **Code of Conduct**: Community standards
 
----
-
-## Next.js - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/vercel/next.js/actions](https://github.com/vercel/next.js/actions)
 2. **Show workflow diversity** (build/test/labeling/preview)
 3. **Highlight** production deployment workflows
 4. **Demonstrate** automated PR management
-
-### 📊 **Dependabot Integration**
-1. **Navigate to** [.github/dependabot.yml](https://github.com/vercel/next.js/blob/canary/.github/dependabot.yml)
-2. **Show** how dependency updates are configured
-3. **Explain** update schedules and ecosystems
-4. **Link to** actual Dependabot PRs in the repository
 
 ---
 
@@ -85,10 +67,6 @@ weight = 13
 - **Actions**: [github.com/microsoft/playwright/actions](https://github.com/microsoft/playwright/actions)
 - **Security**: [github.com/microsoft/playwright/security](https://github.com/microsoft/playwright/security)
 
----
-
-## Playwright - Key Features to Demo
-
 ### 📋 **GitHub Actions Workflows**
 - **CodeQL Advanced**: [CodeQL Advanced](https://github.com/microsoft/playwright/actions/workflows/codeql.yml)
 - **Test Suite**: [Test](https://github.com/microsoft/playwright/actions/workflows/test.yml)
@@ -100,21 +78,11 @@ weight = 13
 - **Dependabot Configuration**: [.github/dependabot.yml](https://github.com/microsoft/playwright/blob/main/.github/dependabot.yml)
 - **Security Policy**: [SECURITY.md](https://github.com/microsoft/playwright/blob/main/SECURITY.md)
 
----
-
-## Playwright - What to Click During Demo
-
-### 🔍 **Actions Tab**
+### 🔍 **What to Click During Demo**
 1. **Open Actions tab** → [github.com/microsoft/playwright/actions](https://github.com/microsoft/playwright/actions)
 2. **Click on "CodeQL Advanced"** workflow
 3. **Show recent runs** and security findings
 4. **Demonstrate** enterprise-grade security scanning
-
-### 📊 **Security Tab**
-1. **Navigate to Security** → [github.com/microsoft/playwright/security](https://github.com/microsoft/playwright/security)
-2. **Show Code scanning** results
-3. **Highlight** vulnerability alerts and fixes
-4. **Explain** how this helps with compliance
 
 ---
 
@@ -166,10 +134,6 @@ weight = 13
 
 ---
 
-{{% section %}}
-
 ## Ready to Explore Node.js/TypeScript Examples?
 
 **Let's dive into Next.js and Playwright to see enterprise-grade GitHub workflows in action!**
-
-{{% /section %}}
